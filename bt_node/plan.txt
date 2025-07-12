@@ -1,0 +1,71 @@
+
+✅- navigare - lucrat cu harta (vazut din gazebo - acces la occupancy map pt navigation planner)
+✅- sistem de person detection
+✅- sistem de notificare (preluat de pe topic)
+✅- sistem de cautare/explorare - folosesc navigarea deja existenta
+✅- sisteme: navigare, person detection, explore, notify
+✅ - navigateTo (room enum)
+✅ - move everything to Config class
+✅ - terminate the person found condition
+✅ - save rviz markers + gazebo person world
+✅ - posibilitate de label pe zone in gazebo (coordonate hardcodate)
+✅ - continuous input
+✅ - get rid of no list as root object rule
+✅ - request details
+✅ - Scenarii: "cauta o persoana (anume)", "Informeaza pe cineva"
+✅- replace mistral with openAI
+✅- "chat history"
+✅- Scenarii extra (de invatat): 
+✅    - Give directions/ show the way
+✅     - "I need (to)"
+✅    - Restrict access to a room
+✅ (sort of) - play hide and seek, you hide
+
+✅LanghGraph
+✅MemorySaver - (messages)
+✅- cicluri
+
+-----------
+Last implementations:
+✅-- tool de cautat pe internet
+✅- Master is also a person in the building, mereu o persoana care vorbeste cu robotul
+✅**- feedback from user at the end
+✅⏩**- preemptie
+- salvare istoric persistenta (LangMem) (+ eventual vectorizare)
+⏩- self-refine (feedback loop)
+⏩-?? optimizare exemple + BT creation
+**- fine tuning
+**- move gazebo people programatically
+------------
+Content:
+✅ - graph layout
+✅ - creare set de prompturi de test
+✅ - try 3+ models
+-------------
+✅CITE CLAM
+------
+
+Test set
+
+Will it rain tomorrow in Bucharest?
+Find Alice.
+Remind Bob to take his medicine.
+Help Alice eat pizza.
+Help Bob eat a hotdog.
+Now help him wash his hands.
+Restrict access to the office.
+Tell Bob about the dangers of smoking.
+Let me know if Alice is in the lounge.
+Restrict Bob's access to the dining room.
+Let's play hide and seek. You hide, I'll seek.
+Again!
+
+----------
+future work
+✅ Diagrama la tot sistemul
+
+------
+
+**- detect people by mesh color
+**- explore rooms (cover rooms in waypoints)
+

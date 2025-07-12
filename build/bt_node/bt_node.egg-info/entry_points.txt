@@ -1,0 +1,4 @@
+[console_scripts]
+controller = bt_node.controller:main
+simple_person_detector = bt_node.perception:main
+
