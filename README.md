@@ -70,7 +70,7 @@ to build the test Behavior Tree found [here](./bt_node/behaviour_tree.py#L23) in
 ```
 config
 ```
-opens up a menu to relocate a chosen person to a different room. Note that **at most one person should be present in each room**.
+opens up a menu to relocate a chosen person to a different room. You need to also move the person mesh in Gazebo to correspond with the change. Note that **at most one person should be present in each room**.
 
 ```
 #no preemtpion
