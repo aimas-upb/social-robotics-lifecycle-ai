@@ -4,11 +4,9 @@ Uses ROS2, Behavior Trees & LangGraph to generate a plan for a robot and the con
 
 ## Prerequisites
 
-- ROS2 Humble ([Tutorial here](https://www.youtube.com/watch?v=0aPbWsyENA8&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy))
+- Install ROS2 Humble & Create a ROS2 workspace ([Tutorials here](https://www.youtube.com/watch?v=0aPbWsyENA8&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy))
 
-- Create a ROS2 workspace
-
-- Inside the workspace/src folder, clone this repo, then run this [script](./clone_repos.sh) to clone 4 helper repos in the src folder and to modify some files from them.
+- Inside the workspace/src folder, clone this repo, then run this [script](./clone_repos.sh) to clone 4 helper repos in the src folder and to modify some files from them. (These use Gazebo & Rviz)
 
 - Install [requirements](./requirements.txt)
 ```
